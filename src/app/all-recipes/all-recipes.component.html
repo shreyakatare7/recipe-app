@@ -1,0 +1,15 @@
+<h2>All Recipes</h2>
+<div class="all-recipes">
+  <a
+    *ngFor="let recipe of allRecipes"
+    [routerLink]="['/recipe', recipe.title]"
+    style="text-decoration: none;">
+    
+    <app-recipe-card
+      [title]="recipe.title"
+      [description]="recipe.description"
+      [image]="recipe.image">
+    </app-recipe-card>
+    
+  </a>
+</div>

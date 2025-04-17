@@ -1,0 +1,11 @@
+* {
+    background-color: #E6E4D4;
+}
+
+html, body{
+    font-family: 'Delius';
+}
+
+button {
+    font-family: 'Delius', sans-serif !important;
+  }  

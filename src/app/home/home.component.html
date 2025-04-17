@@ -1,0 +1,23 @@
+<h1>Welcome to the Recipe App!</h1>
+<p>Discover delicious recipes tailored to your ingredients!</p>
+
+<div class="cta-buttons">
+  <button routerLink="/finder">Find a Recipe</button>
+  <button routerLink="/all-recipes">View All Recipes</button>
+</div>
+
+<h2>Featured Recipes</h2>
+<div class="featured-recipes">
+  <a
+    *ngFor="let recipe of featuredRecipes"
+    [routerLink]="['/recipe', recipe.title]"
+    style="text-decoration: none;">
+    
+    <app-recipe-card
+      [title]="recipe.title"
+      [description]="recipe.description"
+      [image]="recipe.image">
+    </app-recipe-card>
+    
+  </a>
+</div>
