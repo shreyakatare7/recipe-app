@@ -9,14 +9,19 @@ import { Component } from '@angular/core';
 export class HomeComponent {
   featuredRecipes = [
     {
-      title: 'Chocolate Chip Cookie Cake',
-      description: 'Pan-style chocolate chip cookie yummyness.',
-      image: 'assets/chocolate-chip-cake.jpg'
+      title: 'New Orleans Beignets',
+      description: 'Warm and sweet bread, paired perfectly with dusted sugar, inspired by the famous New Orleans.',
+      image: 'assets/beignets.jpg'
     },
     {
-      title: 'Fudgey Brownies',
-      description: 'Goeey-oeey chocolate goodness that just melts in your mouth.',
-      image: 'assets/fudge-brownies.jpg'
+      title: 'French Toast',
+      description: 'A french morning breakfast of sweet bread fried with egg and cinnamon.',
+      image: 'assets/french-toast.jpg'
+    },
+    {
+      title: 'Miso Egg Drop Soup',
+      description: 'A savory, cozy soup consisting of miso and ribbons of egg, perfect for a sick day.',
+      image: 'assets/miso-egg-drop.jpg'
     }
   ];  
 }

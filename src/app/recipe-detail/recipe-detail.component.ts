@@ -59,6 +59,65 @@ export class RecipeDetailComponent {
           'In a plate, portion the rice and mangoes (in slices or cubes). Finish off by drizzling on some of the coconut sauce',
           'Enjoy!'
         ]
+    },
+    {
+      title: 'New Orleans Beignets',
+      description: 'Warm and sweet bread, paired perfectly with dusted sugar, inspired by New Orleans.',
+      image: 'assets/beignets.jpg',
+      ingredients: ['1/2 tsp dry yeast', '1/4 cup warm water', '1/4 cup sugar', '2 tbsp vegetable shortening', '1/2 tsp salt', '1/2 cup heavy cream', '1 egg', '4 cups all-purpose flour', '1/2 cup boiling water', 'vegetable oil for frying', 'powdered sugar'],
+      instructions: [
+        'Sprinkle yeast over warm water in a small bowl. Stir to dissolve',
+        'Add sugar, shortening, salt heavy cream, egg, flour, yeast, and boiling water to a large bowl. Mix together',
+        'Rest dough mixture for 30 minutes',
+        'Roll out dough to 1/4-inch thickness and cut into individual squares. Let dough rise for 2 hous in a warm area',
+        'Heat vegetable oil to 350 degrees and fry beignets for 2-3 minutes, or until golden brown',
+        'Dust warm beignets with powdered sugar',
+        'Enjoy!'
+      ]
+    },
+    {
+      title: 'French Toast',
+      description: 'A french morning breakfast of sweet bread fried with egg and cinnamon.',
+      image: 'assets/french-toast.jpg',
+      ingredients: ['Bread slices','1 egg, whisked', '30 ml of milk','1/4 tsp cinnamon','1/4 tsp vanilla extract','Butter or oil for frying'],
+      instructions:[
+        'Mix the egg, milk, cinnamon, and vanilla extract together in a bowl',
+        'Toast the bread slice until it is slightly brown',
+        'Cover the bread with the mixture',
+        'Fry the bread in a pan greased with butter or oil for 1-2 minutes on each side',
+        'Add any toppings like brown sugar + cinnamon, honey, whipping cream, ice-cream, or fruit',
+        'Enjoy!'
+      ]
+    },
+    {
+      title: 'Miso Egg Drop Soup',
+      description: 'A savory, cozy soup consisting of miso and ribbons of egg, perfect for a sick day.',
+      image: 'assets/miso-egg-drop.jpg',
+      ingredients: ['4 cups chicken or vegetable broth','1/4 tsp salt','1/4 tsp garlic powder','1/4 tsp ground ginger','1/4-1/2 tsp turmeric (for color)','2 tbs cornstarch','3 tbs water','3 eggs, whisked','1/2 tsp of sesame oil','1 green onion for topping'],
+      instructions:[
+        'To a pot over medium heat, add the broth as well as seasonings and stir',
+        'In a small bowl, mix the cornstarch and water to create a "slurry"',
+        'Turn down the heat to low, start stirring with a spatula or chopsticks, then add the eggs slowly',
+        'Mix in some sesame oil for more flavor and take the pot off the heat',
+        'Top with chopped green onions',
+        'Enjoy!'
+      ]
+    },
+    {
+      title: 'Buldak Soup Noodles',
+      description: 'A spicy and soupy twist to the famous Buldak Carbonara Ramen.',
+      image: 'assets/soupy-buldak.png',
+      ingredients: ['200 ml chicken stock or vegetable stock','1 pack of Samyand Buldak Carbonara noodles','1 egg whisked','1 tbsp kewpie mayonnaise (or regular)'],
+      instructions: [
+        'Boil noodles in some boiling water in a pot',
+        'Once soft and can untangle the noodles, add 100 ml of stock',
+        'To a bowl, add the carbonara satchets (sauce and powder)',
+        'Add the egg and kewpie mayo',
+        'Mix well until it forms a paste, then add in the remaining 100 ml stock',
+        'Once the noodles are cooked, add it to the sauce mixture',
+        'Mix well and top with shopped coriander or spring onion and some chili oil',
+        'Enjoy!'
+      ]
     }
   ];
 
